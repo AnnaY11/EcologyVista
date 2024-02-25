@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family:
+   'Josefin Sans', sans-serif;
+     scroll-behavior: smooth;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-size:  15pt;
+    
+    cursor: url('sprout.png'), default;
+  
+  }
+  
+  /*NAVIGATION BAR*/
+  .nav{
+    position:sticky;
+    background-color: #78B45E;
+    text-align: right;
+    color: white;
+    padding: 2.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    list-style-type: none;
+    font-size: 25px;
+  }
+  
+  /*positions Nav Bar links into a horizontal line*/
+  .nav li{
+    display:inline;
+  }
+  
+  /*Formatting for Nav Bar links*/
+  .nav .navLinks a:link{
+    color:white;
+    margin: 20px;
+    padding: 0px;
+    text-decoration: none;
+    border-bottom: 5px solid #78B45E;
+    transition: width 2s;
+  }
+  
+  /*formats Nav Bar links after visited*/
+  .nav .navLinks a:visited{
+    color:white;
+    border-bottom: 5px solid #78B45E;
+  }
+  
+  /*formats Nav Bar links on hover*/
+  .nav .navLinks a:hover{
+    border-color: #FFDE59;
+    padding: 4px 0px;
+    color: #FFDE59;
+  }
+  
+  /*positions logo to top-left*/
+  #logo{
+    float:left;
+    position:absolute;
+    top:50%;
+    left:0%;
+    transform: translate(0%,-50%);
+    padding-left:1.5%;
+    width: 80px;
+    height: auto;
+  }
+  
+  
+  
+  body {
+    cursor: crosshair;
+  }
+  
+  /*END OF NAVIGATION BAR*/
+  
+  /* firstHeading formatting*/
+  #evText{
+    display: block;
+    width:600px;
+    height:auto;
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .firstHeading .evDescription{
+    text-align: center;
+    margin: 20px 100px;
+    font-size: 25px;
+  }
+  
+  
+  
+  
+  /* meet the team - Anna*/
+  .mishead{
+  color:#aa7942
+    
+  }
+  
+  .mishead {
+    color:#78B45E
+  }
+  
+  .auhead {
+    text-align: center;
+    color: #aa7942
+  }
