@@ -156,5 +156,9 @@ html {
 .gameCaption{
     color: black;
     background-color: #78B45E;
-    padding: 40px 100px;    
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 0px;  
+    font-size: 16px;
   }
