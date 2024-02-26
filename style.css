@@ -88,26 +88,73 @@ html {
     margin-right: auto;
   }
   
-  .firstHeading .evDescription{
-    text-align: center;
-    margin: 20px 100px;
+  .firstHeading {
+    padding: 80px;
+    border-radius: 10px;
+    background-color: #FFDE59;
+    margin: 30px 180px;
     font-size: 25px;
+    display: flex;
+    align-items: center;
   }
   
+ 
   
   
   
   /* meet the team - Anna*/
   .mishead{
-  color:#aa7942
+  color:#aa7942;
     
   }
   
   .mishead {
-    color:#78B45E
+    color:#78B45E;
   }
   
   .auhead {
     text-align: center;
-    color: #aa7942
+    color: #aa7942;
+  }
+
+  /*GAME*/
+  #canvas1 {
+    height: 700px;
+    width: 800px;
+    border: 3px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #playerImage, #backgroundImage, #truck {
+    display: none;
+  }
+
+  #play_button {
+    background-color: #78B45E;
+    color: black;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+
+}
+.pollutionImg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+#pollution{
+    height: 60vh;
+    width: auto;
+    margin-left: 50vh;
+}
+.gameCaption{
+    color: black;
+    background-color: #78B45E;
+    padding: 40px 100px;    
   }
